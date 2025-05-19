@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <title>Portfólio - Simara</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #78C091
+    }
+
+    .meuNome {
+      font-family: 'Courier New', Courier, monospace;
+      color: brown;
+    }
+
+    p {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    em {
+      color: rgb(67, 138, 83);
+    }
+
+    .habilidade {
+      font-size: 25px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: rgb(226, 64, 43);
+      margin-right: 8px;
+    }
+    .aprendizado-continuo {
+      font-size: 22px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: blueviolet;
+      margin-block-start: 7px;
+    }
+
+  </style>
+
+
 </head>
+
 <body>
 
   <nav>
@@ -16,33 +52,37 @@
   </nav>
 
   <header>
-    <h1>Simara Santos</h1>
+    <h1 class="meuNome">Simara Santos</h1>
     <p><strong>Desenvolvedora em formação</strong></p>
   </header>
 
   <section id="sobre">
     <h2>Sobre mim</h2>
-    <img src="./fotoavatar.jpeg" alt="Foto atual de Simara, sorrindo, em um ambiente iluminado e com fundo neutro" width="200">
-    <p>Olá! Meu nome é Simara, sou brasileira, moro no *Brasil - ES* e sou apaixonada por tecnologia, aprendizado e criatividade. Estou construindo minha carreira como desenvolvedora web.</p>
+    <img src="./fotoavatar.jpeg" alt="Foto atual de Simara, sorrindo, em um ambiente iluminado e com fundo neutro"
+      width="200">
+    <p>Olá! Meu nome é Simara, sou <strong>brasileira</strong>, moro no <strong>Espírito Santo</strong> e sou apaixonada
+      por tecnologia, aprendizado e
+      criatividade. Estou <strong>construindo minha carreira como desenvolvedora web.s</strong>
   </section>
 
   <section id="habilidades">
     <h2>Habilidades</h2>
-    <ul>
-      <li>HTML e CSS</li>
-      <li>Git e GitHub</li>
-      <li>Comunicação</li>
-      <li><strong>*Aprendizado contínuo* (minha maior habilidade)</strong></li>
+    <ul class="lista-habilidades">
+      <li class="habilidade">HTML e CSS</li>
+      <li class="habilidade">Git e GitHub</li>
+      <li class="habilidade">Comunicação</li>
+      <li class="aprendizado-continuo"><strong>*Aprendizado contínuo* (minha maior habilidade)</strong></li>
     </ul>
   </section>
 
   <section id="contato">
     <h2>Contato</h2>
     <p>Você pode acessar a minha <a href="#sobre">foto aqui</a>.</p>
-    <p>Ou visitar o <a href="https://github.com/SimaraSantos" target="_blank">meu perfil github</a> (abre em nova aba).</p>
+    <p>Ou visitar o <a href="https://github.com/SimaraSantos" target="_blank">meu perfil github</a> (abre em nova aba).
+    </p>
     <p>Email: simaraufes88@gmail.com</p>
   </section>
 
 </body>
-</html>
 
+</html>
