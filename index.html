@@ -9,35 +9,7 @@
     body {
       background-color: #78C091
     }
-
-    .meuNome {
-      font-family: 'Courier New', Courier, monospace;
-      color: brown;
-    }
-
-    p {
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-
-    em {
-      color: rgb(67, 138, 83);
-    }
-
-    .habilidade {
-      font-size: 25px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      color: rgb(226, 64, 43);
-      margin-right: 8px;
-    }
-    .aprendizado-continuo {
-      font-size: 22px;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      color: blueviolet;
-      margin-block-start: 7px;
-    }
-
   </style>
-
 
 </head>
 
@@ -52,17 +24,25 @@
   </nav>
 
   <header>
-    <h1 class="meuNome">Simara Santos</h1>
-    <p><strong>Desenvolvedora em formação</strong></p>
+    <div>
+      <h1 class="meuNome">Simara Santos</h1>
+      <p><strong>Desenvolvedora em formação</strong></p>
+    </div>
   </header>
 
   <section id="sobre">
     <h2>Sobre mim</h2>
-    <img src="./fotoavatar.jpeg" alt="Foto atual de Simara, sorrindo, em um ambiente iluminado e com fundo neutro"
-      width="200">
-    <p>Olá! Meu nome é Simara, sou <strong>brasileira</strong>, moro no <strong>Espírito Santo</strong> e sou apaixonada
-      por tecnologia, aprendizado e
-      criatividade. Estou <strong>construindo minha carreira como desenvolvedora web.s</strong>
+    <div class="sobre-container">
+      <img src="./fotoavatar.jpeg" alt="Foto atual de Simara, sorrindo, em um ambiente iluminado e com fundo neutro"
+        width="200">
+      <p class="descricao"> Olá! Meu nome é Simara, sou <strong>brasileira</strong>, moro no <strong>Espírito
+          Santo</strong> e sou
+        apaixonada
+        por tecnologia, aprendizado e
+        criatividade. Estou <strong>construindo minha carreira como desenvolvedora web.</strong>
+      </p>
+    </div>
+    <div>
   </section>
 
   <section id="habilidades">
@@ -77,8 +57,8 @@
 
   <section id="contato">
     <h2>Contato</h2>
-    <p>Você pode acessar a minha <a href="#sobre">foto aqui</a>.</p>
-    <p>Ou visitar o <a href="https://github.com/SimaraSantos" target="_blank">meu perfil github</a> (abre em nova aba).
+    <p>Você pode acessar a minha <a href="#sobre">foto aqui</a></p>
+    <p>Ou visitar o <a href="https://github.com/SimaraSantos" target="_blank">meu perfil github</a> 
     </p>
     <p>Email: simaraufes88@gmail.com</p>
   </section>
